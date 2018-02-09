@@ -60,3 +60,15 @@ activates point of interest for inspire 2. this has not been fully tested, be ca
 MakeDBPublic:
 will move the app private database dji.db wich is normally located at /data/data/dji.go.v4/databases/dji.db to /mnt/sdcard/DJI/dji_mod_{version_string}.db
 This database hold the recorded missions and moving it in user public area allow to do offline flight planning on non rooted devices ( https://www.dropbox.com/s/ne4rk6l7dr3qphj/Tutorial%20DJI%20Waypoints%20with%20Spark.pdf?dl=0 )
+
+enableQuickshotMoviesForMavic:
+enables Dronie, Circle, Helix and Rocket QuickShot modes on Mavic
+
+experimental_restoreDJIconfigs:
+tries to re-enable the capability to boost the rc power to 1.5W through .DJI.config files (not confirmed to work and may be harmfull for the remote)
+
+removeCheckIfRooted:
+disables the root check in the app
+
+runOnCrystalSky:
+allows the app to be sideloaded on Crystal Sky devices
